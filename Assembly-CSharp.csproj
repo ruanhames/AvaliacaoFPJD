@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Feitico.cs" />
+    <Compile Include="Assets\Scripts\Livro.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

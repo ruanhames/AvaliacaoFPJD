@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 65585914766463106}
   - component: {fileID: 1880095741858941973}
   - component: {fileID: 9046519895725459033}
+  - component: {fileID: 4939967638138015175}
   m_Layer: 0
   m_Name: BolaDeFogo
   m_TagString: Untagged
@@ -104,7 +105,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -152,3 +153,16 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &4939967638138015175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4208050658114257085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2a79d29cb4e85e4ea84a5d42eebe2e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 10

@@ -11,7 +11,7 @@ public class Feitico : MonoBehaviour
     {
         rb=GetComponent<Rigidbody2D>();
 
-   rb.AddForce (Vector2.up * velocidade, ForceMode2D.Impulse);
+   rb.AddForce (Vector2.right * velocidade, ForceMode2D.Impulse);
 
     Destroy(gameObject, 3f);
 
